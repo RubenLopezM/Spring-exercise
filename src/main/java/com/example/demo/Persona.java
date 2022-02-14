@@ -1,7 +1,9 @@
 package com.example.demo;
 
 
+import lombok.Data;
 
+@Data
 public class Persona {
     private String nombre;
     private String población;
@@ -13,29 +15,6 @@ public class Persona {
         this.setEdad(edad);
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getPoblación() {
-        return población;
-    }
-
-    public Integer getEdad() {
-        return edad;
-    }
-
-    public void setNombre(String newName) {
-        this.nombre = newName;
-    }
-
-    public void setPoblación(String newPoblacion) {
-        this.población = newPoblacion;
-    }
-
-    public void setEdad(Integer newEdad) {
-        this.edad = newEdad;
-    }
 }
 
 
