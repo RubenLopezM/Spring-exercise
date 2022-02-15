@@ -1,15 +1,12 @@
 package com.example.demo;
 
-
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
 @Data
-public class Persona {
+@Component
+public class Ciudad {
     private String nombre;
-    private String población;
-    private Integer edad;
+    private int habitantes;
 
 }
-
-
